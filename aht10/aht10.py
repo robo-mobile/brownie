@@ -32,4 +32,4 @@ def getTempHum():
     #print(tmp)
     Hum = int(tmp * 100 / 1048576)
     # print(u'Humidity: {0}%'.format(ctmp))
-    return Temp, Hum
+    return u'{0:.1f}'.format(Temp), Hum
